@@ -1,0 +1,439 @@
+[
+    {
+        "curso": "software",
+        "materias": [
+            {
+                "codigo": "C1",
+                "nome": "Calculo 1",
+                "semestre": 1,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 3
+            },
+            {
+                "codigo": "APC",
+                "nome": "Algoritmos de Programacao de Computadores",
+                "semestre": 1,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 3
+            },
+            {
+                "codigo": "DIAC",
+                "nome": "Desenho Industrial Assistido por Computado",
+                "semestre": 1,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "EA",
+                "nome": "Engenharia e Ambiente",
+                "semestre": 1,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "IE",
+                "nome": "Introdução à Engenharia",
+                "semestre": 1,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "C2",
+                "nome": "Calculo 2",
+                "semestre": 2,
+                "pre_requisitos": [
+                    "C1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "F1",
+                "nome": "Fisica 1",
+                "semestre": 2,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "IAL",
+                "nome": "Introducao a Algebra Linear",
+                "semestre": 2,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 2
+            },
+            {
+                "codigo": "PEA",
+                "nome": "Probabilidade e Estatistica Aplicada",
+                "semestre": 2,
+                "pre_requisitos": [
+                    "C1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "DS",
+                "nome": "Desenvolvimento de Software",
+                "semestre": 2,
+                "pre_requisitos": [
+                    "APC"
+                ],
+                "obrigatorio": "0",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "MNE",
+                "nome": "Metodos Numericos para Engenharia",
+                "semestre": 3,
+                "pre_requisitos": [
+                    "C2"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "EC",
+                "nome": "Engenharia Economica",
+                "semestre": 3,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "HC",
+                "nome": "Humanidade e Cidadania",
+                "semestre": 3,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "TED1",
+                "nome": "Teoria de Eletronica Digital 1",
+                "semestre": 3,
+                "pre_requisitos": [
+                    "IAL"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "PED",
+                "nome": "Pratica de Eletronica Digital 1",
+                "semestre": 3,
+                "pre_requisitos": [
+                    "IAL"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "OO",
+                "nome": "Orientacao a Objeto",
+                "semestre": 3,
+                "pre_requisitos": [
+                    "APC"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 3
+            },
+            {
+                "codigo": "MD1",
+                "nome": "Matematica Discreta 1",
+                "semestre": 3,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "GPQ",
+                "nome": "Gestao de Producao e Qualidade",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "EC"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "MDS",
+                "nome": "Metodos de Desenvolvimento de Software",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "OO"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 3
+            },
+            {
+                "codigo": "ED1",
+                "nome": "Estrutura de Dados 1",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "APC"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 3
+            },
+            {
+                "codigo": "FAC",
+                "nome": "Fundamentos de Arquitetura de Software",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "TED1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "MD2",
+                "nome": "Matematica Discreta 2",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "MD1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "PI1",
+                "nome": "Projeto Integrador 1",
+                "semestre": 4,
+                "pre_requisitos": [
+                    "OO"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "IHC",
+                "nome": "Interacao Humano Computador",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "DIAC",
+                    "MDS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "RS",
+                "nome": "Requisitos de Software",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "MDS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "SBD1",
+                "nome": "Sistema de Banco de Dados 1",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "MD2"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "FSO",
+                "nome": "Fundamentos de Sistemas Operacionais",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "FAC"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 2
+            },
+            {
+                "codigo": "Comp 1",
+                "nome": "Compiladores 1",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "ED1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "ED2",
+                "nome": "Estrutura de Dados 2",
+                "semestre": 5,
+                "pre_requisitos": [
+                    "ED1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "QS",
+                "nome": "Qualidade de Software",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "IHC",
+                    "GPQ"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "TS",
+                "nome": "Teste de Software",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "MDS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 2
+            },
+            {
+                "codigo": "ADS",
+                "nome": "Arquitetura e Desenho de Software",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "RS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "FRC",
+                "nome": "Fundamentos de Redes de Computadores",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "FSO"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "SBD2",
+                "nome": "Sistema de Banco de Dados 2",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "SBD1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "PAA",
+                "nome": "Projeto e Analise de Algoritmos",
+                "semestre": 6,
+                "pre_requisitos": [
+                    "C1",
+                    "ED1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "TPPE",
+                "nome": "Tecnicas de Programacao em Plataformas Emergentes",
+                "semestre": 7,
+                "pre_requisitos": [
+                    "TS",
+                    "ADS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "PP",
+                "nome": "Paradigmas de Programacao",
+                "semestre": 7,
+                "pre_requisitos": [
+                    "OO",
+                    "Comp 1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "FSE",
+                "nome": "Fundamentos de Sistemas Embarcados",
+                "semestre": 7,
+                "pre_requisitos": [
+                    "FSO"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "PSPD",
+                "nome": "Programacao para Sistemas Paralelos e Distribuidos",
+                "semestre": 7,
+                "pre_requisitos": [
+                    "FSE",
+                    "ED2"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "EPS",
+                "nome": "Engenharia de Produto de Software",
+                "semestre": 8,
+                "pre_requisitos": [
+                    "TPPE"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "GCES",
+                "nome": "Gerencia de Configuracao e Evolucao de Software",
+                "semestre": 8,
+                "pre_requisitos": [
+                    "TS"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "ES",
+                "nome": "Estagio Supervisionado",
+                "semestre": 2,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "TCC1",
+                "nome": "Trabalho de Conclusao de Curso 1",
+                "semestre": 9,
+                "pre_requisitos": [],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 1
+            },
+            {
+                "codigo": "PI2",
+                "nome": "Projeto Integrador 2",
+                "semestre": 9,
+                "pre_requisitos": [
+                    "PI1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            },
+            {
+                "codigo": "TCC2",
+                "nome": "Trabalho de Conclusao de Curso 2",
+                "semestre": 10,
+                "pre_requisitos": [
+                    "TCC1"
+                ],
+                "obrigatorio": "1",
+                "pre_requisitos_contagem": 0
+            }
+        ]
+    }
+]
