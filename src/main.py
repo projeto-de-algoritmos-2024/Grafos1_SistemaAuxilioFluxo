@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Caminho do arquivo JSON na pasta `data`
-caminho_arquivo = '../data/materias_software.json'
+caminho_arquivo = 'data/materias_software.json'
 
 # Carregar o JSON
 with open(caminho_arquivo, 'r', encoding='utf-8') as file:

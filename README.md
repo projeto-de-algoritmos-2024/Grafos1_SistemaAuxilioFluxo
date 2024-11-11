@@ -14,11 +14,8 @@ Projeto desenvolvido para a disciplina de Projeto de Algoritmos, ministrada pelo
       <td align="center">
             <a href="https://github.com/deboracaires">
                 <img style="border-radius: 50%;" src="https://github.com/deboracaires.png" width="150px;"/>
-                <h5 class="text-center"> <br> Debora Caires Matrícula: - </h5>
+                <h5 class="text-center"> <br> Debora Caires Matrícula: 222015103</h5>
             </a>
         </td>
     </tr>
 </table>
-
-
-
